@@ -6,3 +6,20 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+//import page scss
+@import '/frames/boutique';
+@import '/frames/caisette_de_viande';
+@import '/frames/elevage';
+@import '/frames/home';
+@import '/frames/pates_et_plats_cuisines';
+@import '/frames/vente_a_la_boutique';
+@import '/frames/viande_au_detaille';
+
+@import '/template/footer';
+@import '/template/layout';
+@import '/template/main';
+@import '/template/nav';
+
+
+

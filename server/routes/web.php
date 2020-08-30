@@ -22,5 +22,17 @@ Route::get('/elevage', function () {
 });
 
 Route::get('/vente_a_la_boutique', function () {
-    return view('/vente_a_la_boutique/home');
+    return view('/vente_a_la_boutique/index');
+});
+
+Route::get('/caissette_de_viande', function () {
+    return view('/vente_a_la_boutique/caissette_de_viande');
+});
+
+Route::get('/pates_et_plats_cuisines', function () {
+    return view('/vente_a_la_boutique/pates_et_plats_cuisines');
+});
+
+Route::get('/viande_detaille', function () {
+    return view('/vente_a_la_boutique/viande_detaille');
 });
