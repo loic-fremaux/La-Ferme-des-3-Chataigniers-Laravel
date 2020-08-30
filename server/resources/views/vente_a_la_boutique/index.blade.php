@@ -1,3 +1,6 @@
+@extends('layout')
+
+@section('content')
 <div id="wrapper">
     <section class="content_wrapper">
         <div class="title_group">
@@ -42,3 +45,4 @@
         </div>
     </section>
 </div>
+@endsection

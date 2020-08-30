@@ -1,3 +1,6 @@
+@extends('layout')
+
+@section('content')
 <div id="wrapper">
 
     <section class="content_wrapper">
@@ -110,3 +113,4 @@
     </section>
 
 </div>
+@endsection
