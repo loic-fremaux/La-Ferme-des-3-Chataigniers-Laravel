@@ -5,12 +5,12 @@
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <meta name="theme-color" content="#009999">
     <meta name="description" content="Site officiel de la Ferme des 3 Châtaigniers">
-    <meta name="keywords" content="La Ferme des 3 Châtaigniers">
+    <meta name="keywords" content="{{ config('app.name', 'Laravel') }}">
     <meta name="author" content="Loïc Frémaux">
-    <meta property="og:site_name" content="La Ferme des 3 Châtaigniers"/>
+    <meta property="og:site_name" content="{{ config('app.name', 'Laravel') }}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.lafermedes3chataigniers.com/img/logo.png"/>
-    <meta property="og:title" content="La Ferme des 3 Châtaigniers"/>
+    <meta property="og:title" content="{{ config('app.name', 'Laravel') }}"/>
     <meta property="og:description" content="Site officiel de la Ferme des 3 Châtaigniers"/>
 
     <!-- CSRF Token -->
