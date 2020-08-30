@@ -2,11 +2,6 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
-    <link rel="icon" type="image/png" href="/img/la_ferme_des_3_chataigniers.png">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/css/layout.css">
-    <link rel="stylesheet" type="text/css" href="/css/nav.css">
-    <link rel="stylesheet" type="text/css" href="/css/footer.css">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <meta name="theme-color" content="#009999">
     <meta name="description" content="Site officiel de la Ferme des 3 Châtaigniers">
@@ -27,13 +22,12 @@
     <script src="{{ asset('js/bootstrap.js') }}" defer></script>
 
     <!-- Styles -->
-    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('scss/app.scss') }}" rel="stylesheet">
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
-    <link href="{{ asset('favicon.png') }}" rel="icon">
+    <link href="{{ asset('favicon.ico') }}" rel="icon">
 </head>
 <header>
-    <img id="main-logo" src="/img/la_ferme_des_3_chataigniers.png" alt="Logo">
+    <img id="main-logo" src="{{ asset('img/la_ferme_des_3_chataigniers.png') }}" alt="Logo">
 
     <nav class="nav-menu">
         <ul>

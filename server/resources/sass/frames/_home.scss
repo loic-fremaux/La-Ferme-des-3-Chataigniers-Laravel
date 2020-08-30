@@ -4,61 +4,61 @@ $breakpoint-tablet: 769px;
 $breakpoint-phone: 481px;
 
 .news_content {
-  font-size: 18px;
-  text-align: center;
+    font-size: 18px;
+    text-align: center;
 
-  margin: 1em 0.5em;
+    margin: 1em 0.5em;
 
-  p {
-    margin: 1em;
-  }
+    p {
+        margin: 1em;
+    }
 
 }
 
 .presentation_content {
-  margin-bottom: 1em;
+    margin-bottom: 1em;
 
-  .animals_list {
-    p {
-      margin-top: 0.25em;
+    .animals_list {
+        p {
+            margin-top: 0.25em;
 
-      &:first-child {
-        margin-top: 0.5em;
-      }
+            &:first-child {
+                margin-top: 0.5em;
+            }
+        }
     }
-  }
 }
 
 @media (max-width: $breakpoint-laptop) {
-  .command_info {
-    font-size: 17px;
-  }
+    .command_info {
+        font-size: 17px;
+    }
 }
 
 @media (max-width: $breakpoint-phone) {
-  .command_info {
-    font-size: 16px;
-  }
-
-  .news_content {
-    font-size: 18px;
-
-    .contact_infos {
-      font-size: 19px;
-      margin-top: 1em;
-
-      p {
-        text-align: left;
-        margin-left: 2%;
-
-        &:first-child {
-          margin-left: 2%;
-        }
-      }
+    .command_info {
+        font-size: 16px;
     }
-  }
 
-  .presentation_content {
-    font-size: 17px;
-  }
+    .news_content {
+        font-size: 18px;
+
+        .contact_infos {
+            font-size: 19px;
+            margin-top: 1em;
+
+            p {
+                text-align: left;
+                margin-left: 2%;
+
+                &:first-child {
+                    margin-left: 2%;
+                }
+            }
+        }
+    }
+
+    .presentation_content {
+        font-size: 17px;
+    }
 }

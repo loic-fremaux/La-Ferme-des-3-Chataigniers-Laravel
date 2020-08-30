@@ -1,89 +1,87 @@
-@use "reset.css";
-
 $breakpoint-laptop: 1281px;
 $breakpoint-small-screen: 961px;
 $breakpoint-tablet: 769px;
 $breakpoint-phone: 481px;
 
 a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
 h2 {
-  font-family: Calibri, Helvetica, arial, sans-serif;
-  font-size: 30px;
-  font-weight: bold;
+    font-family: Calibri, Helvetica, arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 strong {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .no_select {
-  user-select: none;
+    user-select: none;
 }
 
 .title_group {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 
-  margin-top: 4em;
+    margin-top: 4em;
 
-  h2 {
-    white-space: nowrap;
-    margin: 0 0.4em;
+    h2 {
+        white-space: nowrap;
+        margin: 0 0.4em;
 
-    color: #003343;
-  }
-
-  div {
-    height: 30px;
-
-    margin: 2px 0 0;
-
-    background-image: linear-gradient(
-                    180deg,
-                    #003343 15%,
-                    rgba(0, 0, 0, 0) 15%,
-                    rgba(0, 0, 0, 0) 60%,
-                    #003343 60%,
-                    #003343 72.5%,
-                    #f3e0a4 72.5%
-    );
-    background-size: auto 30px;
-
-    &:first-child {
-      width: 10%;
+        color: #003343;
     }
 
-    &:last-child {
-      width: 100%;
+    div {
+        height: 30px;
+
+        margin: 2px 0 0;
+
+        background-image: linear-gradient(
+                        180deg,
+                        #003343 15%,
+                        rgba(0, 0, 0, 0) 15%,
+                        rgba(0, 0, 0, 0) 60%,
+                        #003343 60%,
+                        #003343 72.5%,
+                        #f3e0a4 72.5%
+        );
+        background-size: auto 30px;
+
+        &:first-child {
+            width: 10%;
+        }
+
+        &:last-child {
+            width: 100%;
+        }
     }
-  }
 }
 
 @media (max-width: $breakpoint-tablet) {
-  .title_group {
-    div {
-      &:first-child {
-        width: 25%;
-      }
+    .title_group {
+        div {
+            &:first-child {
+                width: 25%;
+            }
+        }
     }
-  }
 }
 
 @media (max-width: $breakpoint-phone) {
-  .title_group {
-    display: block;
+    .title_group {
+        display: block;
 
-    h2 {
-      margin: 0 0;
-      text-align: center;
-    }
+        h2 {
+            margin: 0 0;
+            text-align: center;
+        }
 
-    div {
-      display: none;
+        div {
+            display: none;
+        }
     }
-  }
 }

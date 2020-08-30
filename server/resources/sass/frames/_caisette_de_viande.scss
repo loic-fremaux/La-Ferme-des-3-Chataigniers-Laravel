@@ -5,86 +5,86 @@ $breakpoint-phone: 481px;
 
 .frames {
 
-  margin: 1em;
-
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-
-
-  div {
-    padding: 0.4em;
     margin: 1em;
 
-    width: 46%;
-    min-height: 150px;
-    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 
-    font-size: 17px;
-    color: black;
-    background-color: #eadca6;
-    text-align: center;
-    border-block: black;
-    box-shadow: 2px 2px #e2c275;
 
-    p {
-      margin: 1em;
-      width: 50%;
+    div {
+        padding: 0.4em;
+        margin: 1em;
 
+        width: 46%;
+        min-height: 150px;
+        height: 300px;
+
+        font-size: 17px;
+        color: black;
+        background-color: #eadca6;
+        text-align: center;
+        border-block: black;
+        box-shadow: 2px 2px #e2c275;
+
+        p {
+            margin: 1em;
+            width: 50%;
+
+        }
     }
-  }
 }
 
 .frames_div {
-  margin: 1em;
+    margin: 1em;
 
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 
-  img {
-    margin: 1em 1em;
-    width: 200px;
-    float: right;
-  }
+    img {
+        margin: 1em 1em;
+        width: 200px;
+        float: right;
+    }
 }
 
 @media (max-width: $breakpoint-phone) {
 
-  .frames {
-    div {
-      padding: 0;
-      margin: 1em;
+    .frames {
+        div {
+            padding: 0;
+            margin: 1em;
 
-      width: 100%;
-      height: auto;
+            width: 100%;
+            height: auto;
 
-      font-size: 17px;
-      color: black;
-      background-color: #eadca6;
-      text-align: center;
-      border-block: black;
-      box-shadow: 2px 2px #e2c275;
+            font-size: 17px;
+            color: black;
+            background-color: #eadca6;
+            text-align: center;
+            border-block: black;
+            box-shadow: 2px 2px #e2c275;
 
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
 
-      p {
-        margin: 1em;
-      }
+            p {
+                margin: 1em;
+            }
+        }
     }
-  }
 }
 
 
 .img_body {
-  margin: 1em 1em;
+    margin: 1em 1em;
 
-  width: 35%;
-  height: auto;
+    width: 35%;
+    height: auto;
 
 }
