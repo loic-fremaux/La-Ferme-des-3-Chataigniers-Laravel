@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout.main')
 
 @section('content')
     <div id="wrapper">
@@ -43,20 +43,18 @@
             ]
             ?>
             <div class="frames">
-                <?php foreach ($list as $key): ?>
-                <div class="frames_div">
-                    <p>
-                        <strong><?= $key[0] ?></strong><br><br>
-                        <strong>Ingrédients:</strong><?= $key[1] ?><br><br>
-                        <strong>Allergène:</strong><?= $key[2] ?><br><br>
-                        <strong>DLC/DLUO:</strong><?= $key[3] ?><br><br>
-                        <strong>Poids:</strong><?= $key[4] ?>
-                    </p>
-                    <img class="img_body" src="/img/pate/<?= $key[6] ?>"
-                         alt="<?= $key[7] ?>">
-                </div>
-                <?php endforeach; ?>
-            </div>
+                @foreach($list as $key)
+                    <div class="frames_div">
+                        <p>
+                            <strong>{{ $key[0] }}</strong><br><br>
+                            <strong>Ingrédients:</strong>{{ $key[1] }}<br><br>
+                            <strong>Allergène:</strong>{{ $key[2] }}<br><br>
+                            <strong>DLC/DLUO:</strong>{{ $key[3] }}<br><br>
+                            <strong>Poids:</strong>{{ $key[4] }}
+                        </p>
+                        <img class="img_body" src="/img/pate/{{ $key[5] }}" alt="{{ $key[6] }}">
+                    </div>
+                @endforeach
             <div>
                 <div class="title_group">
                     <div class="title_line"></div>
