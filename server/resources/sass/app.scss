@@ -6,6 +6,9 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+// Reset
+@import 'reset.css';
+
 //import page scss
 @import 'frames/boutique';
 @import 'frames/caisette_de_viande';
