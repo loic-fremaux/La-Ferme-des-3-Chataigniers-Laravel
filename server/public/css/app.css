@@ -557,14 +557,15 @@ strong {
 .card {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .card .card_element {
   display: flex;
   align-items: center;
-  width: 605px;
-  height: 225px;
+  flex-direction: row;
+  width: calc(50% - 2em);
   margin: 1em;
   font-size: 17px;
   color: black;
@@ -575,23 +576,34 @@ strong {
 }
 
 .card .card_element img {
-  width: 50%;
+  flex: 1 0 0;
   height: 100%;
 }
 
 .card .card_element .card_sub_element {
+  display: flex;
+  flex: 1 0 0;
   flex-direction: column;
-  padding: 4px;
+  justify-content: start;
+  height: 100%;
 }
 
 .card .card_element .card_sub_element h3 {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
-  margin-top: 0.2em;
+  margin-top: 1em;
 }
 
 .card .card_element .card_sub_element p {
+  margin-left: 8px;
+  margin-top: 0.8em;
   text-align: left;
+}
+
+@media (max-width: 769px) {
+  .card .card_element {
+    flex-direction: column;
+  }
 }
 
