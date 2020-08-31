@@ -97,20 +97,17 @@
         ]
     ]
     ?>
-    <div class="card-group">
-        <div class="row row-cols-1 row-cols-md-3">
-            @foreach ($list as $key)
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="{{ asset('/img/viande_detail/' . $key[2]) }}" class="card-img" alt="{{ $key[3] }}">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ $key[0] }}</h5>
-                        <p class="card-text">Le produit est{{ $key[1] }}</p>
-                    </div>
+
+    <div class="box">
+        @foreach($list as $key)
+            <div class="div_box">
+                <img src="{{ asset('/img/viande_detail/' .$key[2]) }}" alt="{{ $key[3] }}" class="img_box">
+                <div class="div_div_box">
+                    <h5 class="title_box">{{ $key[0] }}:</h5>
+                    <p class="text_box">Les produits sont {{$key[1]}}</p>
                 </div>
             </div>
-            @endforeach
-        </div>
+        @endforeach
     </div>
 
 

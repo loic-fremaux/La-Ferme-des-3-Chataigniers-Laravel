@@ -3,21 +3,3 @@ $breakpoint-small-screen: 961px;
 $breakpoint-tablet: 769px;
 $breakpoint-phone: 481px;
 
-.frames {
-    div {
-        padding: 0.4em;
-        margin: 1em;
-
-        font-size: 17px;
-        color: black;
-        background-color: #eadca6;
-        text-align: center;
-        border-block: black;
-        box-shadow: 2px 2px #e2c275;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-}

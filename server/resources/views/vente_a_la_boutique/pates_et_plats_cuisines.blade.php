@@ -40,19 +40,23 @@
         ]
     ]
     ?>
-    <div class="frames">
+    <div class="box">
         @foreach($list as $key)
-            <div class="frames_div">
-                <p>
-                    <strong>{{ $key[0] }}</strong><br><br>
-                    <strong>Ingrédients:</strong>{{ $key[1] }}<br><br>
-                    <strong>Allergène:</strong>{{ $key[2] }}<br><br>
-                    <strong>DLC/DLUO:</strong>{{ $key[3] }}<br><br>
-                    <strong>Poids:</strong>{{ $key[4] }}
-                </p>
-                <img class="img_body" src="http://placehold.it/150x150" alt="{{ $key[5] }}">
+            <div class="div_box">
+                <img class="img_body" src="{{ asset('/img/pate/' .$key[5]) }}" alt="{{ $key[6] }}">
+                <div class="div_div_box">
+                    <h5 class="title_box">title</h5>
+                    <p>
+                        <strong>{{ $key[0] }}</strong><br><br>
+                        <strong>Ingrédients:</strong>{{ $key[1] }}<br><br>
+                        <strong>Allergène:</strong>{{ $key[2] }}<br><br>
+                        <strong>DLC/DLUO:</strong>{{ $key[3] }}<br><br>
+                        <strong>Poids:</strong>{{ $key[4] }}
+                    </p>
+                </div>
             </div>
-        @endforeach
+    </div>
+    @endforeach
     </div>
     <div>
         <div class="title_group">
