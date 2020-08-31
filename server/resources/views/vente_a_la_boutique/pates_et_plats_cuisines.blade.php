@@ -40,7 +40,7 @@
         ]
     ]
     ?>
-    <div class="box">
+    <div class="item_list">
         @foreach($list as $key)
             <div class="div_box">
                 <img class="img_body" src="{{ asset('/img/pate/' .$key[5]) }}" alt="{{ $key[6] }}">

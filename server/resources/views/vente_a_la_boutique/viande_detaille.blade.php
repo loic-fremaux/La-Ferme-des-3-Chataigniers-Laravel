@@ -9,7 +9,7 @@
     <?php
     $list = [
         [
-            'boudin noir', ' conditionné sous vide par 2 poids 360g environ', 'boudin_noir.jpg', 'boudin blanc'
+            'Boudin noir', ' conditionné sous vide par 2 poids 360g environ', 'boudin_noir.jpg', 'boudin blanc'
         ],
         [
             'Chair à saucisse', ' conditionnée en sachet sous vide de 500g environ', 'chaire_saucisse.jpg', 'chaire a saucisse'
@@ -21,7 +21,7 @@
             'Chipolatas aux herbes de Provence', ' conditionnées sous vide par 6 poids 360g environ', 'chipolatas_au_herbe_de_provences.jpg', 'chipolatas_au_herbe_de_provences'
         ],
         [
-            'chipolatas épices merguez', 'conditionné sous vide par 6, poids 360g environ', 'chipolats_epices_merguez.jpg', 'chipolats_epices_merguez'
+            'Chipolatas épices merguez', 'conditionné sous vide par 6, poids 360g environ', 'chipolats_epices_merguez.jpg', 'chipolats_epices_merguez'
         ],
         [
             "Chipolatas au piment d'espelette", "conditionnées sous vide par 6 poids 360g environ", 'chipolatas_au_piment_espelette.jpg', 'chipolatas_au_piment_espelette'
@@ -84,32 +84,30 @@
             "Rouelle d'épaule", " conditionné sous vide poids: 1,200kg", 'rouelle_epaules.jpg', 'rouelle_epaules'
         ],
         [
-            " Saucise paysanne Poitrine", " conditionnée sous vide poids: 1kg", 'saucisses_pyasane.jpg', 'saucisses_pyasane'
+            "Saucise paysanne Poitrine", " conditionnée sous vide poids: 1kg", 'saucisses_pyasane.jpg', 'saucisses_pyasane'
         ],
         [
-            " Saucise de Toulouse  Poitrine", " conditionnée sous vide poids: 1kg", 'saucisses_de_toulouse.jpg', 'saucisses_de_toulouse'
+            "Saucise de Toulouse  Poitrine", " conditionnée sous vide poids: 1kg", 'saucisses_de_toulouse.jpg', 'saucisses_de_toulouse'
         ],
         [
             "Sauté de porc en brochettes ou sauté", " conditionnés par 500g sous vide", 'saute_de_porc.jpg', 'saute_de_porc'
         ],
         [
-            "travers de porc", "conditionné sous vide poids: 850g environ", 'travers.jpg', 'travers'
+            "Travers de porc", "conditionné sous vide poids: 850g environ", 'travers.jpg', 'travers'
         ]
     ]
     ?>
 
-    <div class="box">
+    <div class="item_list">
         @foreach($list as $key)
             <div class="div_box">
                 <img src="{{ asset('/img/viande_detail/' .$key[2]) }}" alt="{{ $key[3] }}" class="img_box">
                 <div class="div_div_box">
-                    <h5 class="title_box">{{ $key[0] }}:</h5>
+                    <h3 class="title_box">{{ $key[0] }}</h3>
                     <p class="text_box">Les produits sont {{$key[1]}}</p>
                 </div>
             </div>
         @endforeach
     </div>
-
-
 
 @endsection

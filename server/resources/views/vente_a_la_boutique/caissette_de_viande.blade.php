@@ -10,47 +10,68 @@
     <?php
     $list = [
         [
-            "boudin noir", " ingrédients: Sang de porc, piment doux, gras de porc, oignons, persil,
-                muscade, sel, poivre ", "d'allergènes, traces possibles de gluten", "3ans", "boudin.jpg", "boudin"
+            "boudin noir",
+            "Sang de porc, piment doux, gras de porc, oignons, persil, muscade, sel, poivre ",
+            "traces possibles de gluten",
+            "3ans",
+            "boudin.jpg",
+            "boudin"
         ],
         [
-            "Fritons", " Porc, gras de porc, vin blanc, persil, ail, sel, poivre",
-            "sulfites, traces possibles de gluten ", "3ans", "boudin.jpg",
-            "boudin.jpg"
+            "Fritons",
+            "Porc, gras de porc, vin blanc, persil, ail, sel, poivre",
+            "sulfites, traces possibles de gluten ",
+            "3ans",
+            "boudin.jpg",
+            "boudin"
         ],
         [
-            "Fritons al bière in Somme", " porc, gras de porc, bière blonde 7,5%, persil, ail, sel, poivre",
-            "sulfites, traces possibles de gluten ", "3ans", "boudin.jpg ",
-            "boudin.jpg"
+            "Fritons al bière in Somme",
+            "porc, gras de porc, bière blonde 7,5%, persil, ail, sel, poivre",
+            "Sulfites, traces possibles de gluten",
+            "3ans",
+            "boudin.jpg",
+            "boudin"
         ],
         [
-            "Rillettes", " ingrédients: Porc, gras de porc, vin blanc, thym, laurier, romarin, basilic,
-                         marjolaine, sel, poivre ", " Sulfites, traces possibles de gluten ", "3ans",
-            "boudin.jpg ", "boudin.jpg"
+            "Rillettes",
+            "Porc, gras de porc, vin blanc, thym, laurier, romarin, basilic, marjolaine, sel, poivre",
+            "Sulfites, traces possibles de gluten",
+            "3ans",
+            "boudin.jpg",
+            "boudin"
         ],
         [
-            "Rillettes", " ingrédients: Porc, gras de porc, vin blanc, thym, laurier, romarin, basilic,
-                         marjolaine, sel, poivre ", " Sulfites, traces possibles de gluten ", "3ans",
-            "boudin.jpg ", "boudin.jpg"
+            "Rillettes",
+            "Porc, gras de porc, vin blanc, thym, laurier, romarin, basilic, marjolaine, sel, poivre",
+            "Sulfites, traces possibles de gluten",
+            "3ans",
+            "boudin.jpg",
+            "boudin"
         ],
         [
-            "Pâté de tête", " Porc, vin blanc, persil, ail, sel, poivre  ", "Sulfites", "3ans",
-            "boudin.jpg ", "boudin.jpg"
+            "Pâté de tête",
+            "Porc, vin blanc, persil, ail, sel, poivre",
+            "Sulfites",
+            "3ans",
+            "boudin.jpg",
+            "boudin"
         ]
     ]
 
     ?>
 
-    <div class="box">
+    <div class="item_list">
         @foreach ($list as $key)
-        <div class="div_box">
-            <img  class="img_box" src="/img/pate/{{$key[4] }}" alt="{{$key[5] }}">
-            <p class="text_box"> <strong>Type: </strong>{{$key[0] }}<br>
-                <strong>Ingrédients:</strong>{{$key[1] }}<br>
-                <strong>Alègéne: </strong>{{$key[2] }}<br>
-                <strong>DLC/DLUO:</strong>DLC/DLUO {{$key[3] }}
-            </p>
-        </div>
+            <div class="div_box">
+                <img class="img_box" src="/img/pate/{{ $key[4] }}" alt="{{ $key[5] }}">
+                <p class="text_box">
+                    <strong>Type: </strong>{{ $key[0] }}<br>
+                    <strong>Ingrédients: </strong>{{ $key[1] }}<br>
+                    <strong>Allergènes: </strong>{{ $key[2] }}<br>
+                    <strong>DLC/DLUO: </strong> {{ $key[3] }}
+                </p>
+            </div>
         @endforeach
     </div>
 

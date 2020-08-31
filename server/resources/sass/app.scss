@@ -4,7 +4,7 @@
 @import 'variables';
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// @import '~bootstrap/scss/bootstrap';
 
 // Reset
 @import 'reset.css';
@@ -23,4 +23,5 @@
 @import 'template/main';
 @import 'template/nav';
 
-@import 'modules/box';
+// Modules
+@import 'modules/grid';
