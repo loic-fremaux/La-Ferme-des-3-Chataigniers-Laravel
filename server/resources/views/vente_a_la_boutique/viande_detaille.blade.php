@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout.main')
 
 @section('content')
 <div id="wrapper">
@@ -102,12 +102,12 @@
         ?>
 
         <div class="frames">
-            <?php foreach ($list as $key): ?>
+            @foreach ($list as $key)
             <div>
-                <p class="text"><?= $key[0] ?> </p>
-                <img class="img_body" src="/img/viande_detail/<?= $key[1] ?>" alt="<?= $key[3] ?>">
+                <p class="text">{{ $key[0] }} </p>
+                <img class="img_body" src="{{ asset('/img/viande_detail/ { $key[1] }') }}" alt="{{ $key[2] }}">
             </div>
-            <?php endforeach; ?>
+            @endforeach
         </div>
 
     </section>

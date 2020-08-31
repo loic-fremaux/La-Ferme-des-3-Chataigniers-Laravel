@@ -38,7 +38,8 @@
                 ],
                 [
                     "Pâté de tête", " Porc, vin blanc, persil, ail, sel, poivre ",
-                    "Sulfite d'allergènes, traces possibles de gluten", "3ans", "270g"
+                    "Sulfite d'allergènes, traces possibles de gluten", "3ans", "270g", "rilette.png",
+                    "rilette.png"
                 ]
             ]
             ?>
@@ -52,9 +53,10 @@
                             <strong>DLC/DLUO:</strong>{{ $key[3] }}<br><br>
                             <strong>Poids:</strong>{{ $key[4] }}
                         </p>
-                        <img class="img_body" src="/img/pate/{{ $key[5] }}" alt="{{ $key[6] }}">
+                        <img class="img_body" src="http://placehold.it/150x150" alt="{{ $key[5] }}">
                     </div>
                 @endforeach
+            </div>
             <div>
                 <div class="title_group">
                     <div class="title_line"></div>
