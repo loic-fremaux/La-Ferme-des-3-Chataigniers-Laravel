@@ -98,11 +98,11 @@
     ]
     ?>
 
-    <div class="item_list">
+    <div class="card">
         @foreach($list as $key)
-            <div class="div_box">
-                <img src="{{ asset('/img/viande_detail/' .$key[2]) }}" alt="{{ $key[3] }}" class="img_box">
-                <div class="div_div_box">
+            <div class="card_element">
+                <img src="{{ asset('/img/viande_detail/' .$key[2]) }}" alt="{{ $key[3] }}" class="element_img">
+                <div class="card_sub_element">
                     <h3 class="title_box">{{ $key[0] }}</h3>
                     <p class="text_box">Les produits sont {{$key[1]}}</p>
                 </div>

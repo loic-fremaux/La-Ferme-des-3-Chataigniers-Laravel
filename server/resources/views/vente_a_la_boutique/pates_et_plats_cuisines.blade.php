@@ -40,12 +40,12 @@
         ]
     ]
     ?>
-    <div class="item_list">
+    <div class="card">
         @foreach($list as $key)
-            <div class="div_box">
+            <div class="card_element">
                 <img class="img_body" src="{{ asset('/img/pate/' .$key[5]) }}" alt="{{ $key[6] }}">
-                <div class="div_div_box">
-                    <h5 class="title_box">title</h5>
+                <div class="card_sub_element">
+                    <h3>title</h3>
                     <p>
                         <strong>{{ $key[0] }}</strong><br><br>
                         <strong>Ingrédients:</strong>{{ $key[1] }}<br><br>

@@ -10,9 +10,9 @@
     <?php
     $list = [
         [
-            "boudin noir",
+            "Boudin noir",
             "Sang de porc, piment doux, gras de porc, oignons, persil, muscade, sel, poivre ",
-            "traces possibles de gluten",
+            "Traces possibles de gluten",
             "3ans",
             "boudin.jpg",
             "boudin"
@@ -61,16 +61,16 @@
 
     ?>
 
-    <div class="item_list">
+    <div class="card">
         @foreach ($list as $key)
-            <div class="div_box">
-                <img class="img_box" src="/img/pate/{{ $key[4] }}" alt="{{ $key[5] }}">
-                <p class="text_box">
-                    <strong>Type: </strong>{{ $key[0] }}<br>
-                    <strong>Ingrédients: </strong>{{ $key[1] }}<br>
-                    <strong>Allergènes: </strong>{{ $key[2] }}<br>
-                    <strong>DLC/DLUO: </strong> {{ $key[3] }}
-                </p>
+            <div class="card_element">
+                <img class="element_img" src="/img/pate/{{ $key[4] }}" alt="{{ $key[5] }}">
+                <div class="card_sub_element">
+                    <h3>{{ $key[0] }}</h3>
+                    <p><strong>Ingrédients: </strong>{{ $key[1] }}</p><br>
+                    <p><strong>Allergènes: </strong>{{ $key[2] }}</p><br>
+                    <p><strong>DLC/DLUO: </strong> {{ $key[3] }}</p>
+                </div>
             </div>
         @endforeach
     </div>
