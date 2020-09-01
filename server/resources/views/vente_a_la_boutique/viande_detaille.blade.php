@@ -216,8 +216,8 @@
 
     <div class="card">
         @foreach($list as $key)
-            <div class="card_element">
-                <img src="/img/viande_detail/{{ $key[3] }}" alt="{{ $key[4] }}" class="element_img">
+            <div class="small_card_element">
+                <img src="/img/viande_detail/{{ $key[3] }}" alt="{{ $key[4] }}" class="small_element_img">
                 <div class="card_sub_element">
                     <h3>{{ $key[0] }}</h3>
                     <p><strong>Conditionner :</strong> {{ $key[1] }}</p>
