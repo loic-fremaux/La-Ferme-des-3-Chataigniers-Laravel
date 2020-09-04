@@ -21,6 +21,7 @@ class PatesEtPlatsCuisinesElements extends Migration
                 ->onUpdate('cascade');
             $table->string('title');
             $table->integer('weight');
+            $table->string('dlc');
             $table->string('image_path');
         });
     }
