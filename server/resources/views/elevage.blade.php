@@ -98,7 +98,7 @@
             Il pratique une agriculture raisonnée qui se traduit par un apport réduit et contrôlé des intrants
             et
             pesticides.<br><br>
-            La majeure partie des cultures sert à composer les rations de nourriture des porcs.
+            La majeure partie des cultures sert à composer l'alimentation des porcs.
         </p>
 
         <div class="flex_bottom">

@@ -9,17 +9,17 @@
 
     <div class="news_content">
         <p>Notre Boucherie-Charcuterie vous accueille tous les
-            <strong>vendredis</strong> de <strong>9h00</strong> à <strong>18h30</strong>
-            et <strong>samedis</strong> de <strong>9h00</strong> à <strong>16h00</strong>.
+            <strong>vendredis</strong> de <strong>9h00</strong> à <strong>19h00</strong>
+            et <strong>samedis</strong> de <strong>9h00</strong> à <strong>17h00</strong>.
         </p>
         <p>
-            Vous pourrez y trouver du porc, du bœuf, du veau, de l'agneau, de la volaille, de la charcuterie,
+            Vous pourrez y trouver du porc et de la charcuterie issus de notre élevage, du bœuf, du veau, de l'agneau, de la volaille,
             des produits laitiers ainsi que des produits du terroir.
         </p>
 
         <div class="contact_infos">
             <p>
-                Pour passer commande, vous pouvez nous contacter au coordonnées suivantes :
+                Pour passer commande, vous pouvez nous contacter aux coordonnées suivantes :
             </p>
             <p>Mail:
                 <strong>
@@ -34,7 +34,7 @@
         </div>
 
         <p class="command_info" style="font-style: italic; margin-top: 1.8em">
-            Toute commande doit nous parvenir au plus tard le lundi soir
+            Toute commande doit nous parvenir au plus tard le mercredi soir
             pour la vente du vendredi et samedi qui suit !
         </p>
     </div>
@@ -53,23 +53,13 @@
         <p style="margin-top: 0.8em">
             La Ferme, typiquement picarde par ces briques rouges et sa cour rectangulaire ouverte vers
             l'extérieur
-            est située en Picardie, dans un charmant petit village de 180 habitants au sud
-            du département de la Somme, à proximité de Montdidier. Vous y trouverez tous les animaux de la ferme
-            :
+            est située en Picardie, dans un charmant petit village de 180 habitants, Villers Tournelle, au sud
+            du département de la Somme, à proximité de Montdidier.
         </p>
-        <div class="animals_list">
-            <p>> Les volailles : poules, coqs, canards, oies, dindes, pintades et paons</p>
-            <p>> Les lapins</p>
-            <p>> Les moutons et les chèvres</p>
-            <p>> L'âne et les poneys</p>
-            <p>> La vache</p>
-            <p>> L'élevage de porcs où les animaux sont élevés sur paille</p>
-        </div>
         <p style="margin-top: 0.5em">
-            L'essentiel de nos cultures est utilisé pour la nutrition de l'élevage des porcs. Vous retrouverez
-            les
-            céréales, blé et orge, les poix protéagineux, les féveroles, le colza ainsi que les betteraves
-            sucrières. Le GAEC pratique une agriculture respectueuse de l'environnement.
+            L'essentiel de nos cultures est utilisé pour la nutrition de l'élevage des porcs. Nous cultivons :
+            du blé, de l'orge, du triticale, de l'avoine, des poix protéagineux, des féveroles ainsi que du colza.
+            Le GAEC pratique une agriculture respectueuse de l'environnement.
         </p>
     </div>
 @endsection

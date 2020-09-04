@@ -184,16 +184,16 @@
             'rouelle_epaules'
         ],
         [
-            "Saucise paysanne Poitrine",
+            "Saucise paysanne",
              "Sous vide",
-             "1kg",
+             "500g",
              'saucisses_pyasane.jpg',
              'saucisses_pyasane'
         ],
         [
-            "Saucise de Toulouse  Poitrine",
+            "Saucise de Toulouse",
             "Sous vide",
-            "1kg",
+            "500g",
             'saucisses_de_toulouse.jpg',
             'saucisses_de_toulouse'
         ],
@@ -220,7 +220,6 @@
                 <img src="/img/viande_detail/{{ $key[3] }}" alt="{{ $key[4] }}" class="small_element_img">
                 <div class="card_sub_element">
                     <h3>{{ $key[0] }}</h3>
-                    <p><strong>Conditionnement :</strong> {{ $key[1] }}</p>
                     <p><strong>Poids :</strong> {{ $key[2] }}</p>
                 </div>
             </div>

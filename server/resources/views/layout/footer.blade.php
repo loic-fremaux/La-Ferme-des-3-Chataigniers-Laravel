@@ -26,8 +26,7 @@
 <div class="footer_element description">
     <h3>Description</h3>
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium adipisci blanditiis cum doloribus
-        earum magni nihil rem sit totam! Aperiam dolores laudantium minima molestias omnis optio pariatur, ratione
-        velit.
+        Située à Villers Tournelle (80), la Ferme vous propose de la viande et de la charcuterie issus de son élevage
+        de porcs sur paille, nourris aux céréales et graines de lin. Du champs à votre assiette.
     </p>
 </div>
