@@ -3,21 +3,16 @@
 @section('content')
     <div class="title_group">
         <div class="title_line"></div>
-        <h2>Viande au detail </h2>
+        <h2>Pâtés et plats cuisinés</h2>
         <div class="right_line"></div>
     </div>
 
-    <div class="title_group_caisse">
-        <div class="title_line"></div>
-        <h3> Viande au detail </h3>
-        <div class="right_line"></div>
-    </div>
     <?php
     $list = [
         [
-            "boudin noir",
+            "Boudin noir",
             "Sang de porc, piment doux, gras de porc, oignons, persil, muscade, sel, poivre.",
-            "traces possibles de gluten",
+            "Traces possibles de gluten",
             "3ans",
             "270g",
             "boudin.jpg",
@@ -26,7 +21,7 @@
         [
             "Fritons",
             "Porc, gras de porc, vin blanc, persil, ail, sel, poivre ",
-            "traces possibles de gluten",
+            "Traces possibles de gluten",
             "3ans",
             "270g",
             "friton.jpg",
@@ -34,8 +29,8 @@
         ],
         [
             "Fritons al bière in Somme",
-            "porc, gras de porc, bière blonde 7,5%, persil, ail, sel, poivre ",
-            "traces possibles de gluten",
+            "Porc, gras de porc, bière blonde 7,5%, persil, ail, sel, poivre ",
+            "Traces possibles de gluten",
             "3ans",
             "250g",
             "Fritons al bière in Somme.jpg",
@@ -44,7 +39,7 @@
         [
             "Rillettes",
             "Porc, gras de porc, vin blanc, thym, laurier, romarin, basilic, marjolaine, sel, poivre",
-            "traces possibles de gluten",
+            "Traces possibles de gluten",
             "3ans",
             "270g",
             "rilette.png",
@@ -53,7 +48,7 @@
         [
             "Pâté de tête",
             "Porc, vin blanc, persil, ail, sel, poivre ",
-            "traces possibles de gluten",
+            "Traces possibles de gluten",
             "3ans",
             "270g",
             "rilette.png",
@@ -67,10 +62,10 @@
                 <img class="img_body" src="{{ asset('/img/pate/' .$key[5]) }}" alt="{{ $key[6] }}">
                 <div class="card_sub_element">
                     <h3>{{ $key[0] }}</h3>
-                    <p><strong>Ingrédients :</strong> {{ $key[1] }}</p><br>
-                    <p><strong>Allergène :</strong> {{ $key[2] }}</p><br>
-                    <p><strong>Poids :</strong> {{ $key[4] }}</p>
-                    <p><strong>DLC/DLUO :</strong> {{ $key[3] }}</p><br>
+                    <p><strong>Ingrédients : </strong>{{ $key[1] }}</p><br>
+                    <p><strong>Allergènes : </strong>{{ $key[2] }}</p><br>
+                    <p><strong>Poids : </strong>{{ $key[4] }}</p>
+                    <p><strong>DLC/DLUO : </strong>{{ $key[3] }}</p><br>
                 </div>
             </div>
         @endforeach
@@ -78,16 +73,15 @@
     <div>
         <div class="title_group">
             <div class="title_line"></div>
-            <h2>Pâtés de campagne </h2>
+            <h2>Pâtés de campagne</h2>
             <div class="right_line"></div>
         </div>
         <?php
         $list = [
             [
                 "Pâtés de campagne nature",
-                "Porc, poitrine de porc, foie de porc, oeufs, oignons, sucre, ail, persil,
-                 laurier sel, poivre",
-                "oeufs, traces possibles de sulfite",
+                "Porc, poitrine de porc, foie de porc, oeufs, oignons, sucre, ail, persil, laurier sel, poivre",
+                "Oeufs, traces possibles de sulfite",
                 "3ans",
                 "270g",
                 "pate_camp_aie.jpg",
@@ -96,7 +90,7 @@
             [
                 "Pâtés de campagne à l'ail",
                 "Porc, poitrine de porc, foie de porc, oeufs, oignons, sucre, ail,persil, laurier sel, poivre",
-                "oeufs, traces possibles de sulfite",
+                "Oeufs, traces possibles de sulfites",
                 "3ans",
                 "270g",
                 "pate_camp_aie.jpg",
@@ -105,7 +99,7 @@
             [
                 "Pâtés de campagne au poivre vert",
                 "Porc, poitrine de porc, foie de porc, œuf, oignons, poivre vert, vinaigre, ail, persil, sel, poivre",
-                "oeufs, traces possibles de sulfite",
+                "Oeufs, traces possibles de sulfites",
                 "3ans",
                 "270g",
                 "pate_camp_poivre_vert.jpg",
@@ -113,8 +107,8 @@
             ],
             [
                 "Pâtés de campagne au vin blanc",
-                "orc, foie de porc, oeufs, oignons, vin blanc, ail, persil, sucre, laurier, sel, poivre", "Sulfites,
-                 traces possibles de gluten",
+                "Porc, foie de porc, oeufs, oignons, vin blanc, ail, persil, sucre, laurier, sel, poivre",
+                "Sulfites, traces possibles de gluten",
                 "3ans",
                 "270g",
                 "Pâtes de campagne au vin blanc",
@@ -124,7 +118,7 @@
                 "Pâtés de campagne au salicornes",
                 "Porc, foie de porc, oignons, salicornes, vinaigre, échalotes,oeufs, ail, persil, sucre, laurier, sel,
                  oivre",
-                "oeufs, traces possibles de sulfite",
+                "Oeufs, traces possibles de sulfites",
                 "3ans",
                 "270g",
                 "#",
@@ -138,10 +132,10 @@
                     <img class="img_body" src="{{ asset('/img/pate/' .$key[5]) }}" alt="{{ $key[6] }}">
                     <div class="card_sub_element">
                         <h3>{{ $key[0] }}</h3>
-                        <p><strong>Ingrédients:</strong>{{ $key[1] }}</p><br>
-                        <p><strong>Allergène:</strong>{{ $key[2] }}</p><br>
-                        <p><strong>DLC/DLUO:</strong>{{ $key[3] }}</p><br>
-                        <p><strong>Poids:</strong>{{ $key[4] }}</p>
+                        <p><strong>Ingrédients : </strong>{{ $key[1] }}</p><br>
+                        <p><strong>Allergènes : </strong>{{ $key[2] }}</p><br>
+                        <p><strong>DLC/DLUO : </strong>{{ $key[3] }}</p><br>
+                        <p><strong>Poids : </strong>{{ $key[4] }}</p>
                     </div>
                 </div>
             @endforeach
@@ -149,7 +143,7 @@
         <div class="body-div">
             <div class="title_group">
                 <div class="title_line"></div>
-                <h2>Tio pateu </h2>
+                <h2>Tio pateu</h2>
                 <div class="right_line"></div>
             </div>
             <?php
@@ -158,7 +152,7 @@
                     "Tio pateu ach'cid",
                     "Porcelet, poitrine de porc, oignons, bière blonde 5,5%, orge malté, sucre roux de canne, paprika,
                     coriandre, sel, poivre",
-                    "Sulfite",
+                    "Sulfites",
                     "3ans",
                     "270g",
                     "tio1.jpg",
@@ -168,7 +162,7 @@
                     "Tio pâteu Al Bière El Belle",
                     "Porcelet, poitrine de porc, oignons, bière blonde 5,5%, orge malté, sucre roux de canne, paprika,
                     coriandre, sel, poivre",
-                    "traces possibles de gluten",
+                    "Traces possibles de gluten",
                     "3ans",
                     "270g",
                     "tio2.jpg",
@@ -178,7 +172,7 @@
                     "Tio pateu ed'Campagne",
                     "Porcelet, poitrine de porc, oignons, bière blonde 5,5%, orge malté, sucre roux de canne, paprika,
                     coriandre, sel, poivre",
-                    "d'allergènes, traces possibles de gluten",
+                    "Traces possibles de gluten",
                     "3ans",
                     "250g",
                     "tio2.jpg",
@@ -201,10 +195,10 @@
                         <img class="img_body" src="{{ asset('/img/pate/' .$key[5]) }}" alt="{{ $key[6] }}">
                         <div class="card_sub_element">
                             <h3>{{ $key[0] }}</h3>
-                            <p><strong>Ingrédients :</strong> {{ $key[1] }}</p>
-                            <p><strong>Allergène :</strong> {{ $key[2] }}</p>
-                            <p><strong>Poids :</strong> {{ $key[4] }}</p>
-                            <p><strong>DLC/DLUO :</strong> {{ $key[3] }}</p>
+                            <p><strong>Ingrédients : </strong>{{ $key[1] }}</p>
+                            <p><strong>Allergènes : </strong>{{ $key[2] }}</p>
+                            <p><strong>Poids : </strong>{{ $key[4] }}</p>
+                            <p><strong>DLC/DLUO : </strong>{{ $key[3] }}</p>
                         </div>
                     </div>
                 @endforeach

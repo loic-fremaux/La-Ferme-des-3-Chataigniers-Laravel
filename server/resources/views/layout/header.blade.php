@@ -7,7 +7,7 @@
         <li><a href="{{ url('/vente_a_la_boutique') }}">Vente à la boutique ▼</a>
             <ul class="unroll">
                 <li><a href="{{ url('/pates_et_plats_cuisines') }}">Pâtés et plats cuisinés</a></li>
-                <li><a href="{{ url('/viande_detaille') }}">Viande au détail</a></li>
+                <li><a href="{{ url('/viande_au_detail') }}">Viande au détail</a></li>
                 <li><a href="{{ url('/caissette_de_viande') }}">Caissettes de viande</a></li>
             </ul>
         </li>

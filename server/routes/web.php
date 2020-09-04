@@ -33,6 +33,6 @@ Route::get('/pates_et_plats_cuisines', function () {
     return view('/vente_a_la_boutique/pates_et_plats_cuisines');
 });
 
-Route::get('/viande_detaille', function () {
-    return view('/vente_a_la_boutique/viande_detaille');
+Route::get('/viande_au_detail', function () {
+    return view('/vente_a_la_boutique/viande_au_detail');
 });

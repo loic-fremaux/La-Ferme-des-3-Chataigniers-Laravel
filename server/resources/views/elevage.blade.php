@@ -11,7 +11,7 @@
         <div>
             <p>
                 <strong>Emmanuel</strong> élève ses porcs sur paille comme autrefois : dans ces conditions, les
-                animaux bénéficient d'un confort qui leur permet d'exprimer leurs comportements naturels.
+                animaux bénéficient d'un confort qui leur permet d'exprimer leur comportement naturel.
                 <br> Élevés sans
                 antibiotiques, ils sont nourris avec les céréales de la ferme et de la graine de lin.<br>
                 Riche en oméga 3, le lin donne à la viande une saveur et un moelleux incomparable.

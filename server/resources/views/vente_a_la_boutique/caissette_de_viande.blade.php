@@ -11,7 +11,7 @@
     $list = [
         [
             "Boudin noir",
-            "Sang de porc, piment doux, gras de porc, oignons, persil, muscade, sel, poivre ",
+            "Sang de porc, piment doux, gras de porc, oignons, persil, muscade, sel, poivre",
             "Traces possibles de gluten",
             "3ans",
             "boudin.jpg",
@@ -20,14 +20,14 @@
         [
             "Fritons",
             "Porc, gras de porc, vin blanc, persil, ail, sel, poivre",
-            "sulfites, traces possibles de gluten ",
+            "Sulfites, traces possibles de gluten ",
             "3ans",
             "boudin.jpg",
             "boudin"
         ],
         [
             "Fritons al bière in Somme",
-            "porc, gras de porc, bière blonde 7,5%, persil, ail, sel, poivre",
+            "Porc, gras de porc, bière blonde 7,5%, persil, ail, sel, poivre",
             "Sulfites, traces possibles de gluten",
             "3ans",
             "boudin.jpg",
