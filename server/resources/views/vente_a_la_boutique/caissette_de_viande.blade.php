@@ -45,8 +45,7 @@
             "Rillettes",
             "Porc, gras de porc, vin blanc, thym, laurier, romarin, basilic, marjolaine, sel, poivre",
             "Sulfites, traces possibles de gluten",
-            "3ans",
-            "boudin.jpg",
+               "boudin.jpg",
             "boudin"
         ],
         [

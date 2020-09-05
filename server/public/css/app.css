@@ -45,7 +45,9 @@ q:before, q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
-}.news_content {
+}@charset "UTF-8";
+
+.news_content {
   font-size: 18px;
   text-align: center;
   margin: 1em 0.5em;
@@ -638,6 +640,42 @@ img {
   .card .card_element {
     flex-direction: column;
   }
+}
+
+.form {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  /* largeur obligatoire pour être centré */
+}
+
+.form .form_content {
+  margin-top: 1em;
+  margin-bottom: 2px;
+}
+
+.form .form_content .form_sub_content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  border: 2px solid #e2c275;
+  border-radius: 4px;
+  background-color: #eadca6;
+  margin: 8px 0;
+  outline: none;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #e2c275;
+  box-shadow: 0 0 8px 0 #e2c275;
 }
 
 .btn-secondary,
