@@ -3,7 +3,7 @@
 @section('content')
     <div class="title_group">
         <div class="title_line"></div>
-        <h2>Viande au detail </h2>
+        <h2>Viande au détail </h2>
         <div class="right_line"></div>
     </div>
     <?php
@@ -201,12 +201,12 @@
     ?>
 
     <div class="card">
-        @foreach($list as $key)
+        @foreach($elements as $key)
             <div class="small_card_element">
-                <img src="/img/viande_detail/{{ $key[3] }}" alt="{{ $key[4] }}" class="small_element_img">
+                <img src="/img/viande_detail/{{ $key['image_path'] }}" alt="{{ $key['title'] }}" class="small_element_img">
                 <div class="card_sub_element">
-                    <h3>{{ $key[0] }}</h3>
-                    <p><strong>Poids :</strong> {{ $key[2] }} environ</p>
+                    <h3>{{ $key['title'] }}</h3>
+                    <p><strong>Poids :</strong> {{ $key['weight'] }}g environ</p>
                 </div>
             </div>
         @endforeach
